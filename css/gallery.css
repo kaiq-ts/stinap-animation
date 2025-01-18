@@ -102,3 +102,24 @@ section.gallery {
     transform: translateY(100%);
   }
 }
+
+@media (max-width: 720px) {
+  section.gallery {
+    & .content {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  section.gallery figure {
+    animation: none;
+    animation-timeline: none;
+    animation-range: none;
+  }
+
+  section.gallery figure figcaption {
+    animation: none;
+    transform: translateY(0);
+    transition: none;
+  }
+}

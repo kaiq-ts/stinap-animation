@@ -8,7 +8,7 @@ A simple animation page using HTML and CSS.
 </p>
 
 <p align="left">
-    <img src="./.github/images/preview.jpg" width="400px">
+    <img src="./.github/images/preview.png" width="400px">
 </p>
 
 ## Tech Stack
